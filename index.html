@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style7.css">
+  <title>Todo App</title>
+</head>
+<body>
+  <div class="todoapp stack-large">
+    <h1>Todo List App</h1>
+    <form>
+      <h2 class="label-wrapper">
+        <center><label htmlFor="new-todo-input" class="label__lg">
+          <em>THINGS TO DO</em>
+        </label> </center>
+      </h2>
+      <input type="text" id="new-todo-input" class="input input__lg" name="text" autoComplete="off" />
+      <button
+        type="button"
+        class="btn btn_primary btn_lg"
+        id="add-todo-btn"
+      >
+        Add
+      </button>
+    </form>
+    <ul id="todo-list" role="list" class="todo-list stack-large stack-exception" aria-labelledby="list-heading"></ul>
+  </div>
+  <script src="./todo7.js"></script>
+</body>
+</html>
